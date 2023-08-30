@@ -1,0 +1,377 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@500;700;800&display=swap');
+
+
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+@font-face {
+    font-family: 'RZDbold';
+    src: url('../fonts/RussianRailGProBold.woff2') format('woff2'),
+         url('../fonts/RussianRailGProBold.woff') format('woff');
+    
+
+}
+
+
+
+
+@font-face {
+    font-family: 'RZDmedium';
+    src: url('../fonts/RussianRailGProMedium.woff2') format('woff2'),
+         url('../fonts/RussianRailGProMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'RZDregular';
+    src: url('../fonts/RussianRailGRegular.woff2') format('woff2'),
+         url('../fonts/RussianRailGRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'FS';
+    src: url('../fonts/FSRAIL55.woff2') format('woff2'),
+         url('../fonts/FSRAIL55.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS75';
+    src: url('../fonts/FSRAIL75.woff2') format('woff2'),
+         url('../fonts/FSRAIL75.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 10px 15px;
+   
+}
+
+.head {
+    background-color: #ff3333;
+    padding: 5px;
+}
+
+.line {
+    display: block;
+    width: 16px;
+    height: 2px;
+    margin-bottom: 3px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.nav__item {
+display: inline-block;
+margin: 5px;
+font-family: 'RZDmedium';
+font-size: 22px;
+}
+
+.nav {
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    color: white;
+    margin-left: 5px;
+    justify-content: flex-start;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.ovals {
+    font-family:'FS';
+    font-size: 14px;
+    color: #4d5d66;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media screen and (max-width:393px) {
+    .ovals {
+        font-family:'FS';
+        font-size: 10px;
+        color: #4d5d66;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+    
+
+
+.oval {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e2e3e5;
+    border-radius: 15px;    
+}
+
+.back {
+    background-color: #f4f4f4;
+    padding-bottom: 10%;
+}
+
+.ovals__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    font-family: 'FS';
+    color: #324957;
+    font-size: 14px;
+    display: flex;
+    padding: 10px;
+    padding-top: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cost {
+    font-size: 22px;
+}
+
+.rub {
+    font-size: 22px;
+    color: #949ea7;
+    padding-left: 4px;
+}
+
+.status {
+    padding-bottom: 3px;
+}
+
+.line2 {
+    display: block;
+
+    background-color: #d0d1d3;
+    height: 1px;
+}
+.content {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    justify-content: center;
+
+}
+
+.img1{
+    border-radius: 6px;
+    padding-bottom: 5px;
+    background-color: #ffffff;
+    z-index: 1;
+    position: absolute;
+    max-width: 93vw;
+   
+
+}
+
+.sub {
+    padding-top: 15px;
+    padding-left: 52px;
+    font-family: 'FS';
+    z-index: 2;
+    position: relative;
+    color: white;
+    font-size: 15px;
+}
+
+.inpt__item {
+    padding-bottom: 14px;
+}
+
+.pls {
+    padding-top: 3%;
+    background-color: white;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    border-radius: 6PX;
+
+}
+
+.ppk {
+    font-family: 'FS';
+    font-size: 8px;
+    color:#5e6c76b7;
+    padding-left: 18px;
+}
+.date {
+    padding-top: 10px;
+    padding-bottom: 3%;
+    color: #314a59;
+    font-family: 'FS75';
+    font-size: 14px;
+    padding-left:18px;
+}
+
+.line3 {
+        display: block;
+        background-color: #d0d1d3;
+        height: 1px;
+
+}
+
+.seat {
+    padding-bottom: 4%;
+    color: #314a59;
+    font-family: 'FS75';
+    font-size: 14px;
+    padding-left:18px;
+}
+.no {
+    font-family: 'fs';
+    display: block;
+}
+.nono {
+    font-family: 'fs75';
+    display: block;
+    font-size: 13px;
+}
+.ppk2 {
+    padding-top: 3%;
+    display: block;
+    font-family: 'FS';
+    color:#5e6c76b7;
+    font-size: 12px;
+    color: #314a59;
+    padding-left: 18px;
+}
+
+.qr {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qrimg {
+    padding-top: 3%;
+    max-width: 88%;
+    padding-bottom: 4%;
+}
+
+a.allscreen:active {
+    text-decoration: none;
+}
+.allscreen {
+    background-color: #f4f4f4;
+    font-family: 'fs';
+    border-radius: 20px;
+    padding-top:4%;
+    font-size: 13px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom:4%;
+    margin-bottom: 2%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.passinfo {
+    padding-left: 18px;
+    padding-top: 5%;
+}
+
+.pass {
+    font-family: fs;
+    font-size: 8px;
+    color:#5e6c76b7;
+    padding-bottom: 2%;
+}
+.name {
+    font-family: 'fs';
+    color: #314a59;
+    font-size: 14px;
+}
+
+.name2 {
+    font-family: 'fs';
+    color: #314a59;
+    font-size: 14px;
+    padding-bottom: 5%;
+}
+.napr {
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    font-family: 'fs';
+    padding-left: 18px;
+    padding-top: 3%;
+    font-size: 12px;
+    color: #334956;
+    margin-bottom: 10%;
+}
+
+.nprvect {
+    padding-bottom: 3%;
+}
+
+.cost4 {
+    width: 70px;
+}
+
+.kass {
+    display: flex;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    margin-top: 10%;
+    color: #334956;
+    font-size: 12px;
+    font-family: 'fs';
+    padding-left: 18px;
+    padding-top: 4%;
+    justify-content: space-between;
+    padding-right: 18px;
+    padding-bottom: 4%;
+    margin-bottom: 5%;
+}
+
+.ks2 {
+    color: #d0d1d3;
+}
+
+.end {
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 3.5%;
+    font-size: 12px;
+    font-family: 'fs';
+    margin-right: 3.5%;
+    padding-top: 3%;
+    color: #334956;
+    padding-bottom: 3%;
+}
+
+.tt{
+    padding-left: 18px;
+}
+
+.line4 {    display: block;
+
+    background-color: #d0d1d3;
+    height: 1px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
